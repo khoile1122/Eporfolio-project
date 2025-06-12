@@ -94,6 +94,10 @@ nav {
     flex-direction: column;
 }
 
+#about-me {
+    display: flex;flex-direction: column;
+}
+
 .about-me__info--container {
     display: flex;
     flex-direction: column;
@@ -124,7 +128,31 @@ padding-top: 8px;
     margin-bottom: 16px;
 }
 
-.about-me __info--para {
+.about-me__info--para {
     font-size: 20px;
     margin-bottom: 28px;
+}
+
+.about-me--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__link {
+    font-size: 20px;
+    color: #242424;
+    text-decoration: none;
+    padding: 0 16px;
+}
+
+.about-me__img--container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }
