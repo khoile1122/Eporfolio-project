@@ -303,9 +303,8 @@ footer {
     width: 100%;
     max-width: 500px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
 }
 
 .footer__row {
@@ -325,6 +324,10 @@ footer {
 .footer__copyright {
     color: #fff;
     margin-top: 16px;
+    text-align: center;
+}
+.footer__copyright-extra {
+    color: purple;
     text-align: center;
 }
 
